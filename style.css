@@ -1,0 +1,296 @@
+/* linking font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans+Caption&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:wght@900&family=Josefin+Sans&family=PT+Sans+Caption&family=Plus+Jakarta+Sans&display=swap');@font-face{
+    font-family: Ishqia;
+    src:url(./Web-TT/Ishqia.ttf);
+    font-weight:bold;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5vh 5%;
+}
+.page1{
+    width:100%;
+    height:98vh;
+    background-color: blue;
+    background-image: url(image/hero-bg.jpg);
+    background-size: cover;
+    /* object-position: left 20%; */
+    /* background-image: url(image/img2.svg); */
+
+}
+/* .img_2{
+    width:100%;
+    height:auto;
+    background-image: url(image/hero-bg.jpg);
+    background-repeat: no-repeat; */
+    
+/* } */
+.nav_list{
+    list-style: none;
+}
+.nav_list li{
+    display: inline-block;
+    padding:0 20px;
+    
+}
+.nav_list li a{
+    font-family: Josefin Sans;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.nav_list li a:hover{
+    text-decoration: underline;
+}
+.nav_btn {
+    width:130px;
+    height:30px;
+    border-radius: 50px;
+    font-family: Josefin Sans;
+    border-style: none;
+    color:black;
+    background-color: white; 
+}
+.nav_btn:hover{
+    color:blue;
+    box-shadow: 2px 6px 12px rgb(5, 5, 129);
+}
+.flex_text{
+display:flex;
+flex-direction: column;
+align-items: center;
+padding:15vh 10%;
+;
+
+}
+.flex_text h2{
+    font-family: Ishqia;
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.flex_text p{
+font-family:sans-serif;
+font-size:1.1rem;
+line-height: 2rem;
+padding:50px 170px;
+text-align: center;
+font-weight: 300;
+color: white;
+}
+.download,.open{
+    width:275px;
+    height:50px;
+    border-radius: 50px;
+    margin:0 20px;
+    font-family: PT Sans Caption; 
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+}
+.open{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    
+}
+.download:hover{
+    color:blue;
+    box-shadow: 2px 6px 12px rgb(5, 5, 129);
+}
+.open:hover{
+    color:white;
+    background-color: rgba(54, 52, 52,0.9);
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.page_2{
+    display: flex;
+    padding:18vh 10%;
+    align-items: center;
+    /* flex-wrap:wrap; */
+    transition: all 0.3s ease 0s;
+
+}
+.page_2:hover{
+    
+}
+
+.text_page_2{
+    padding:0 60px;
+}
+.text_1{
+    font-family: PT Sans Caption; 
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    /* transition: all 0.3s ease 0s; */
+}
+.text_2{
+    margin:20px 0;
+    font-family: Josefin Sans;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color:rgb(92, 89, 89)
+    /* transition: all 0.3s ease 0s; */
+}
+/* ------------------------------------------------------------------------------------------ */
+.page_3{
+    width:100%;
+    height:90vh;
+    display: flex;
+    padding:18vh 10%;
+    align-items: center;
+    background-color: rgb(230, 227, 227);
+    /* flex-wrap:wrap; */
+    transition: all 0.3s ease 0s;
+
+}
+/* ------------------------------------------------------------------------------------------ */
+.page_5{
+    width:100%;
+    height:190vh;
+/* display: flex; */
+    /* padding:18vh 10%; */
+    /* align-items: center; */
+    background-color: rgb(230, 227, 227);
+    /* flex-wrap:wrap; */
+    /* transition: all 0.3s ease 0s; */
+
+}
+
+.page_5 .text_1{
+    padding:10vh 5% 0 5%;
+    font-size:3rem;
+    text-align: center;
+    font-family:Fira Sans ;
+}
+.page_5 .text_2{
+    padding:1vh 10% 8vh 10%; 
+    text-align: center;
+}
+.img {
+    width:100%;
+    margin:-10vh 0; 
+    transition: all 0.3s ease 0s;
+}
+.img_2{
+    padding:20vh 25%;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+}
+.text_3{
+    font-family: Josefin Sans;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    margin:-25vh 28% 0 28%;
+}
+.page_5 button{
+    margin:10vh 35%;
+    background-color: blue;
+}
+.page_5 button:hover{
+    background-color: rgba(0,0,255, 0.8);
+
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+.footer_main{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:50vh;
+    background-color: rgb(58, 55, 55);
+    color:white;
+    justify-content: space-evenly;
+}
+footer{
+    width:100%;
+    height:50vh;
+    background-color: rgb(58, 55, 55);
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    /* margin:5vh 30px; */
+}
+
+footer ul{
+    list-style: none;
+    margin:10vh 0;
+    font-family: Josefin Sans;
+    
+}
+footer ul li{
+    margin:10px 0;
+}
+footer ul li:hover{
+    text-decoration: underline;
+}
+.america{
+    margin:10vh 0;
+    padding:0 10px;
+    display:block;
+    /* display:flex;
+    flex-direction: column; */
+    /* margin:10vh 0; */
+}
+.heading{
+    color:rgb(48, 48, 250);
+    /* margin:0 0 0 10px; */
+}
+.imagine{
+    font-family:Ishqia;
+    color:rgb(48, 48, 250);
+    margin:0 ;
+    font-size: 2rem;
+}
+.america img{
+    width:25px;
+}
+.inner_space{
+    margin:30px 0;
+}
+
+.america div{
+    display:flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+
+
+.bottom_footer{
+    display:flex;
+    background-color: rgb(58, 55, 55);
+    /* margin: 0 10%; */
+    justify-content: space-between;
+    padding:0 10%;
+    align-items: center;
+}
+.bottom_footer .nav_btn{
+    margin:10px 0;
+    background-color: rgb(48, 48, 250);
+    color: white;
+}
+.blue_line{
+    margin:0 10%;
+    color:rgb(48, 48, 250);
+}
+
+
+/* ------------------------------------------------------------------- */
